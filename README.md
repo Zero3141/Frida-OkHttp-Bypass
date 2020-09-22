@@ -2,6 +2,12 @@
 
 This script can be used by frida to hijack ssl pinning functions `SSLContext.init()` and `CertificatePinner$Builder.build()`
 
+## Requirements
+
+- Rooted android device/emulator (I use Genymotion)
+- Running frida-server on android device
+- Proxy set to network listener application (Fiddler, BurpSuit, ...)
+
 ## Usage
 
 Push your certificate to device
